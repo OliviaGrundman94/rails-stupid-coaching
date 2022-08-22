@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+
+ p {
+  font-family:  "Segoe UI";
+  font-size: 20px;
+ }
+
+ h1 {
+  font-family:  "Segoe UI";
+  font-size: 50px;
+ }
+
+
+ .author {
+  color: darkgrey;
+  font-weight: lighter;
+  font-size: 15px;
+ }
+
+
+ #question, #answer {
+  border-left: 5px solid gray;
+  padding: 10px 15px;
+  background-color: rgb(245, 245, 245);
+  margin: 10px;
+   }
+
+#askbtn {
+  width: 100px;
+  height:32px;
+  color:white;
+  background-color: darkgrey;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin: 5px;
+  border: none;
+  box-shadow: 2px 2px 3px grey;
+}
+
+#textbox {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 3px grey;
+}
+
+.form {
+
+}
